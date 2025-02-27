@@ -1,0 +1,216 @@
+
+#kurt {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#levaraketa {
+   position: absolute;
+   width: 120px;
+   height: auto;
+   left: 48%;
+   top: 28%;
+   rotate: 245deg;
+   transition: 0.5s;
+   z-index: 1;
+    
+}
+#pravaraketa {
+    position: absolute;
+    width: 140px;
+    height: auto;
+    left: 48%;
+    top: 75%;
+    rotate: 380deg;
+    transition: 0.5s;
+    z-index: 3;
+
+}
+#micek {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 54.5%;
+    top: 81%;
+    transition: 1s;
+    z-index: 2;
+}
+#prvnipole {
+    width: 33%;
+    height: 36%;
+    left: 38%;
+    top: 86%;
+}
+#druhepole {
+    width: 23%;
+    height: 4%;
+    left: 38%;
+    top: 37%;
+}
+#countshot {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    top: 50%;
+    left: 8%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: lightblue;
+    font-size: 18px;
+}
+#start {
+    position: absolute;
+    top: 60%;
+    left: 8.2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: lightskyblue;  
+}
+#start:hover {
+    font-size: 15px;
+    transition: 0.5s;
+}
+#Stop {
+    position: absolute;
+    top: 68%;
+    left: 8.2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: lightskyblue;
+}
+#Stop:hover {
+    font-size: 15px;
+    transition: 0.5s;
+}
+#reset {
+    position: absolute;
+    top: 64%;
+    left: 3%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: lightskyblue;
+}
+#reset:hover {
+    font-size: 15px;
+    transition: 0.5s;
+}
+#player1 {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 8px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: darkslategray;
+    color: white;
+    font-size: small;
+}
+#player2 {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 8px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: darkslategray;
+    color: white;
+    font-size: small;
+}
+#point1 {
+    position: absolute;
+    top: 50%;
+    left: 87.4%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: cyan;
+    color: black;
+}
+#point2 {
+    position: absolute;
+    top: 54.9%;
+    left: 87.4%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: cyan;
+    color: black;
+}
+#point3 {
+    position: absolute;
+    top: 50%;
+    left: 89.8%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: darkslategray;
+    color: white;
+}
+#point4 {
+    position: absolute;
+    top: 54.9%;
+    left: 89.8%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: darkslategray;
+    color: white;
+}
